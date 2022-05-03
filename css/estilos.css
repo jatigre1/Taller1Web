@@ -119,4 +119,57 @@ body{
     padding: 2em 0;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(196, 20, 128);
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .menuPlato{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+
+.chefPrincipal{
+    width: 32%;
+    background-color: #ededed;
+    border: 1px solid #bbb6b6;
+    box-sizing: border-box;
+    /*height: 200px;*/
+    margin-bottom: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block
+}
+
+.chefPrincipal img{
+    float: left;
+    border-radius: 50%;
+}
+
+.chefPrincipal h3{
+    color: rgb(173, 114, 59);
+    text-align: center;
+    padding: 3em 0;
+}
+
+.chefPrincipal button{
+    background-color: rgb(226, 141, 43);
+    color: #ededed;
+    padding: 0.5em 1em;
+    margin-bottom: 5p
+}
+
+.chefPrincipal p{
+    font-size: 13px;
+    color: black;
+    padding: 0.2em 1em;
+    text-align: justify;
+    
+    
+}
 
